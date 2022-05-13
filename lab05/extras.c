@@ -28,9 +28,11 @@ void print_gr(Graph* gr){
 //Free memory allocated for a Graph
 void free_gr(Graph* gr){
     char station[MAX_LEN];
-    while(gr->adj_list != NULL){
-        strcpy(station, gr->adj_list[0]->station);
+    int i= 0; 
+    while(gr->adj_list!=NULL){
+        strcpy(station, gr->adj_list[i]->station);
         disrupt(gr, station);
+        i++;
     }
     free(gr);
     gr = NULL;
@@ -39,12 +41,12 @@ void free_gr(Graph* gr){
 
 //Print (and free) the shortest path from plan_route()
 //Must provide the correct start vertex
-void print_route(char **route, char *start){
+void print_route(char **route){
     if (route){
         int count = 0;
-        printf("The shortest path, tracing backwards, is: ");
+        printf("The shortest path is:\n");
         char *curr = route[count];
-        while(strcmp(curr, start)!=0){
+        while(route[count+1]!=NULL){
             printf("%s, ", curr);
             free(curr);
             count++;
