@@ -35,4 +35,4 @@ void disrupt(Graph *gr, char *station);
 Graph *initialize_graph();
 void print_gr(Graph* gr);
 void free_gr(Graph* gr);
-void print_route(char **route, char *start);
+void print_route(char **route);
