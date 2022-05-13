@@ -153,7 +153,6 @@ void add_all_queue(Graph* gr, Queue* queue, Vnode* vertex_node)//adds all the ed
                 {
                    strcpy(temp->station,gr->adj_list[*start]->station);
                     vertex_node->prev = temp;
-                    printf("previous:  %s,  current: %s", temp->station, vertex_node->station);
 
                 }                
                 else
@@ -218,7 +217,6 @@ char **plan_route(Graph *gr, char *start, char *dest){
 
     add_all_queue(gr, queue, gr->adj_list[*start_index]);//add all the edge nodes in the starting vertex node 
     gr->adj_list[*start_index]->prev = NULL;
-    printf("this shows nothign %s", queue->head->curr);
     while(queue->head!=NULL)
     {
         if(strcmp(queue->head->vertex, dest)==0)//if the destination is found, break out of the loop 
@@ -237,12 +235,12 @@ char **plan_route(Graph *gr, char *start, char *dest){
 
     if(queue->head == NULL)
     {
-        printf("no path found");
+        printf("no path found\n");
         return NULL;
     }
     else if(strcmp(queue->head->vertex, dest)==0)
     {
-        printf("path found");
+        printf("path found\n");
     }
    route[0] = gr->adj_list[*end_index]->station;
         Vnode* prev = gr->adj_list[*end_index];
@@ -405,8 +403,6 @@ void update(Graph *gr, char *start, char *dest, int weight){
                         edge_node->next = NULL;
                         gr->adj_list[i]->edges->next = edge_node;//go to next edge
                         gr->adj_list[i]->edges = gr->adj_list[i]->edges->next;
-                        printf("after%s", gr->adj_list[i]->edges->vertex);
-
 
                     }
                 }
