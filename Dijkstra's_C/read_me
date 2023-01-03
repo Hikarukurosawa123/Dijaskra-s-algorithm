@@ -1,7 +1,0 @@
-The code in the main.py file implements the Dijkstra's algorithm to find the shortest path between two nodes. Each circle represents a station and there are edge nodes that connects the stations together. Each edge node contains weighting information and it resembles the cost it takes to go from the source station to the destination station. 
-The example_video.mp4 file illustrates how the algorithm finds the shortest path from station "a" to station "j" by running the example function. 
-This code was written to further my understanding of Dijkstra's algorithm using visuals to make it easier to track the steps to arrive at the destination with the cheapest cost. 
-
-A few next steps to note: 
-1. Improved user interface - enable the user to interact with the screen to create stations and connections
-2. Implementation of other path finding algorithms and comparison of run time complexities
