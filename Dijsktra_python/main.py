@@ -226,17 +226,17 @@ def example(objects, Graph, Queue, lines):
     Graph.adjacent = []
     Queue.priority = []
 
-    Graph.add_vertex("a", 50, 300, objects)
-    Graph.add_vertex("b", 150, 200, objects)
-    Graph.add_vertex("c", 300, 200, objects)
-    Graph.add_vertex("d", 450, 200, objects)
-    Graph.add_vertex("e", 600, 200, objects)
-    Graph.add_vertex("f", 750, 200, objects)
-    Graph.add_vertex("g", 900, 200, objects)
-    Graph.add_vertex("h", 1050, 200, objects)
-    Graph.add_vertex("i", 1200, 200, objects)
-    Graph.add_vertex("j", 1350, 300, objects)
-    Graph.add_vertex("k", 600, 550, objects)
+    Graph.add_vertex("a", 60, 330, objects)
+    Graph.add_vertex("b", 200, 230, objects)
+    Graph.add_vertex("c", 340, 230, objects)
+    Graph.add_vertex("d", 480, 230, objects)
+    Graph.add_vertex("e", 620, 230, objects)
+    Graph.add_vertex("f", 760, 230, objects)
+    Graph.add_vertex("g", 900, 230, objects)
+    Graph.add_vertex("h", 1040, 230, objects)
+    Graph.add_vertex("i", 1180, 230, objects)
+    Graph.add_vertex("j", 1320, 330, objects)
+    Graph.add_vertex("k", 630, 580, objects)
 
     Graph.adjacent[0].add_edge(Graph,"j", 28, objects, lines)
 
@@ -261,7 +261,7 @@ def example(objects, Graph, Queue, lines):
 if __name__ == "__main__":
     pygame.init()
     SCREEN_WIDTH = 1500
-    SCREEN_HEIGHT = 600
+    SCREEN_HEIGHT = 900
     Graph = graph()
     Queue = queue()
     
@@ -404,7 +404,7 @@ if __name__ == "__main__":
         if enter: 
             pass 
         elif not ask_cost:
-            button_text = base_font.render("1. Click screen to create a station 2. Type station name and hit enter 3. Click two stations to create connection", True, RED) 
+            button_text = base_font.render("1. Right click screen to create a station 2. Type station name and hit enter 3. Click two stations to create connection", True, RED) 
             instruction = pygame.Rect(20, 100, button_text.get_width()+10, 60)
             pygame.draw.rect(screen, (0,0,0), instruction, 1)
             screen.blit(button_text, button_text.get_rect(center = instruction.center))
