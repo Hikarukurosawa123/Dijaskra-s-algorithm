@@ -1,6 +1,0 @@
-This code investigates the use of fourier transform to identify the frequencies in which the superposed function is made out of. 
-For instance, if a function is composed out of a sum of sine waves with frequencies, 10, 20, 30, 100, and 200, 
-in the frequency domain (after the fouier transform is applied), there would be spikes at 10, 20, 30, 100, and 200.
-This is useful in the context of sound processing; if there are undesirable "noises" in the (say, a high pitch sound), that specific sound can be tuned down by equating the value at the high frequency in the fourier domain as zero,
-and apply the inverse fourier transform to obtain the sound file without the high frequency. 
-This code was an extension to my waves course in classical and quantum mechanics to better understand how the fourier transform enables to reveal the frequencies at which the superposed waves are made out of. 
