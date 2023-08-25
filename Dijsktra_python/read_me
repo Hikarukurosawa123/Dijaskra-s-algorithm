@@ -1,8 +1,0 @@
-The code in the main.py file implements the Dijkstra's algorithm to find the shortest path between two nodes. Each circle represents a station and there are edge nodes that connects the stations together. Each edge node contains weighting information and it resembles the cost it takes to go from the source station to the destination station. 
-Writing two codes that performs the same functionality in C and Python demonstrated the similarity and differences between using Structures (in C) and Classes (in Python) to represent the station and edge nodes. 
-Two example videos are provided as a demonstration of this program: the first video gives a run down of what happens when the "example" button is pressed; the second video shows the different ways the user can interact with the screen to find the shortest path using Dijkstra's Algorithm. 
-If the code is disfunctional at any point, please press the "reset" button to restart the process. Thank you. 
-
-Next Steps:
-1. Consideration of edge cases 
-2. Implementation of other path finding algorithms and comparison of run time complexities
