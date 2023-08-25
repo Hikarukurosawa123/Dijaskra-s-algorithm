@@ -1,1 +1,1 @@
-This github page includes personal and course projects from my first two years of studies at the Engineering Science Program at University of Toronto. The most complete project is the Dijkstra's Algorithm Program written in Python with a GUI feature, so it would be grateful if you can take the time to check the program out. Thank you. 
+
