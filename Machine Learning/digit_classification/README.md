@@ -1,1 +1,1 @@
-d
+This code implements a hand-engineered fully connected neural network. A hand-written digit dataset of numbers between 0~9 from the MNIST library was used. A training and testing accuracy of approximately 85% was achieved with a neural network layer dimension of (784, 200, 80, 10)
