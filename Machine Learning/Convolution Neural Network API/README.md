@@ -15,4 +15,4 @@ Figures below show accuracy vs epoch graph and the loss vs epoch graph.
 
 ![loss vs epoch ](https://github.com/Hikarukurosawa123/hikaruk.github.io/assets/94869114/e126be21-6ef5-4207-a03f-20d895889fed)
 
-Next steps include the hyperparameter tuning to increase the testing score accuracy. 
+The next step is to tune the hyperparameters to increase the testing score accuracy. 
