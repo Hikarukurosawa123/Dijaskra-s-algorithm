@@ -2,7 +2,7 @@ This code runs a convolutional neural network (ConvNet) implemented using tensor
 A hand-sign image dataset sourced from https://coursera.org/share/b5ada0e8a36a2bb04ed089d54f1ab25d was used. 
 Some samples images of the training datasets are the following:
 
-Screenshot 2023-08-27 at 15 18 37
+![Screenshot 2023-08-27 at 15 18 37](https://github.com/Hikarukurosawa123/hikaruk.github.io/assets/94869114/ae86ce40-2cab-4865-bff9-947c67140c2f)
 
 This image is associated with a label number of 4.
 
