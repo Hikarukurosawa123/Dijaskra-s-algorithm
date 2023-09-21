@@ -1,4 +1,4 @@
-![1](https://github.com/Hikarukurosawa123/hikaruk.github.io/assets/94869114/0a924a02-3407-4a3a-873a-b8e23ed87afb)Includes the files to projects I have been involved in, including
+This page includes the files of the projects I have been involved in, including
 1) Creating a bamboo weaving device to improve profitability of bamboo products in rural Thailand (Bamboo Weaving)
 2) Designing a gondola carrier in collaboration with Canadian Space Agency (CSA)
 3) Machine Learning for image classification
