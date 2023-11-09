@@ -29,5 +29,6 @@ Details of the results are available in the Poster titled "Research Day Poster".
 
 Also, the matlab file titled "dynamic_code_demo" can be run to compute the graphs. Please note that the "code" and "dynamic_supplementary_func" folders must be added to the directory in matlab beforehand. 
 
-![image](https://github.com/Hikarukurosawa123/hikaruk.github.io/assets/94869114/48c3e643-1e36-4785-90a2-cce24c5a5956)
+![image](https://github.com/Hikarukurosawa123/hikaruk.github.io/assets/94869114/628d1e12-2032-4253-bf73-25e8d760f27b)
+
 
